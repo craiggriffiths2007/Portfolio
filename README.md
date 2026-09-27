@@ -6,7 +6,7 @@ I am a C# / .NET software developer based in Greater Manchester with over 20 yea
 
 ## 🌐 Live Portfolio
 
-**[Visit my portfolio](https://glassops.co.uk)**
+**[Visit my portfolio](https://craiggriffiths.co.uk)**
 
 ## Featured Projects
 
