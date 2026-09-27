@@ -64,4 +64,4 @@ The site is designed to provide a concise overview of my professional experience
 
 For further information, employment opportunities or professional enquiries, please visit:
 
-**contact@glassops.co.uk**
+**craig@glassops.co.uk**
