@@ -72,7 +72,8 @@
               "ToolTip": "D:\\Source\\craiggriffiths2007\\portfolio\\Images\\casino.png",
               "RelativeToolTip": "Images\\casino.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-09-11T03:16:49.679Z"
+              "WhenOpened": "2026-09-11T03:16:49.679Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -153,7 +154,7 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "D:\\Source\\craiggriffiths2007\\portfolio\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAADkBAAAAAAAAAAArwFkBAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAKIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-08-19T14:10:30.73Z",
               "EditorCaption": ""

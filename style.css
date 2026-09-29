@@ -569,3 +569,118 @@ footer {
         transition: none;
     }
 }
+
+/* LIGHT / DARK THEME ---------------------------------------------------- */
+:root { color-scheme: light; }
+:root[data-theme="dark"] {
+    color-scheme: dark;
+    --blue: #6ab6ff;
+    --blue-dark: #a7d6ff;
+    --blue-light: #4da8f6;
+    --cyan: #48d4e8;
+    --purple: #aa95ff;
+    --green: #5ed6a1;
+    --casino: #b39aff;
+    --casino-dark: #9377df;
+    --text: #e5effb;
+    --muted: #afc0d2;
+    --background: #0d1625;
+    --background-alt: #142237;
+    --card: #1a2a3e;
+    --border: #30465e;
+    --shadow: 0 12px 35px rgba(0, 0, 0, 0.28);
+}
+.site-header { transition: background .2s ease, border-color .2s ease; }
+.nav-wrap { gap: 22px; }
+.nav-wrap nav { margin-left: auto; }
+.theme-toggle {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 8px 11px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--card);
+    color: var(--text);
+    font: 600 .88rem inherit;
+    font-family: inherit;
+    font-size: .85rem;
+    font-weight: 650;
+    cursor: pointer;
+    transition: background .2s, border-color .2s, transform .2s;
+}
+.theme-toggle:hover { border-color: var(--blue); transform: translateY(-1px); }
+.theme-toggle:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.theme-toggle svg { width: 20px; height: 20px; }
+.theme-toggle .icon-sun { display: none; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+[data-theme="dark"] .site-header {
+    background: rgba(14, 25, 42, .94);
+    border-bottom-color: rgba(131, 186, 239, .18);
+}
+[data-theme="dark"] .hero {
+    background-image:
+        linear-gradient(90deg, rgba(11, 21, 36, .97) 0%, rgba(11, 21, 36, .91) 32%,
+                        rgba(11, 21, 36, .7) 55%, rgba(11, 21, 36, .34) 85%),
+        url("Images/hero-background.png");
+}
+[data-theme="dark"] .hero::before {
+    background: radial-gradient(circle at 15% 23%, rgba(31, 62, 103, .36), transparent 40%);
+}
+[data-theme="dark"] .hero::after {
+    background: linear-gradient(to bottom, transparent, rgba(13, 22, 37, .48));
+}
+[data-theme="dark"] .hero h1,
+[data-theme="dark"] .section h2,
+[data-theme="dark"] .card h3,
+[data-theme="dark"] .timeline h3 { color: #eaf5ff; }
+[data-theme="dark"] .hero h1,
+[data-theme="dark"] .lead { text-shadow: none; }
+[data-theme="dark"] .lead { color: #c4d6e9; }
+[data-theme="dark"] .button:not(.primary) {
+    background: rgba(30, 49, 72, .9);
+    border-color: #42617d;
+    color: #d1e9ff;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, .16);
+}
+[data-theme="dark"] .button:not(.primary):hover { background: #2a4360; }
+[data-theme="dark"] .button.primary { color: #06182a; }
+[data-theme="dark"] .section.alt {
+    background: linear-gradient(180deg, #13233a, #0e192b);
+}
+[data-theme="dark"] .projects-section { background: #101d2e; }
+[data-theme="dark"] .card:hover { box-shadow: 0 18px 45px rgba(0,0,0,.35); }
+[data-theme="dark"] .skill-icon {
+    background: linear-gradient(135deg, #234964, #413b75);
+}
+[data-theme="dark"] .tag { background: #213f59; color: #a8dcff; }
+[data-theme="dark"] .project-tech span {
+    border-color: #3a536e;
+    background: #17283b;
+    color: #bbccdd;
+}
+[data-theme="dark"] .timeline article::before { border-color: #142237; }
+[data-theme="dark"] .contact-section {
+    background: linear-gradient(135deg, #142e42, #292344);
+}
+[data-theme="dark"] footer { background: #081221; color: #c1d9ef; }
+@media (max-width: 900px) {
+    .nav-wrap { flex-wrap: wrap; }
+    .nav-wrap nav { gap: 12px; }
+}
+@media (max-width: 700px) {
+    .nav-wrap { flex-direction: row; justify-content: space-between; gap: 12px; }
+    .nav-wrap nav { order: 3; margin: 0; width: 100%; justify-content: center; }
+    .theme-toggle { margin-left: auto; }
+    [data-theme="dark"] .hero {
+        background-image:
+            linear-gradient(90deg, rgba(11,21,36,.96), rgba(11,21,36,.8) 75%, rgba(11,21,36,.58)),
+            url("Images/hero-background.png");
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .theme-toggle, .site-header { transition: none; }
+}
