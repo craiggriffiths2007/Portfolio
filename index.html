@@ -28,15 +28,15 @@
           sizes="180x180" href="Images/apple-touch-icon.png" />
 
     <script>
-        // Set the theme before the stylesheet renders to avoid flashing.
-        try {
-            const saved = localStorage.getItem('portfolio-theme');
-            document.documentElement.dataset.theme =
-                saved === 'light' || saved === 'dark' ? saved :
-                'dark';
-        } catch (_) {
-            document.documentElement.dataset.theme = 'dark';
-        }
+                // Set the theme before the stylesheet renders to avoid flashing.
+                try {
+                    const saved = localStorage.getItem('portfolio-theme');
+                    document.documentElement.dataset.theme =
+                        saved === 'light' || saved === 'dark' ? saved :
+                        'dark';
+                } catch (_) {
+                    document.documentElement.dataset.theme = 'dark';
+                }
     </script>
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -54,11 +54,6 @@
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#experience">Experience</a>
-                <a href="Craig-Griffiths-CV.pdf"
-                   target="_blank"
-                   rel="noopener">
-                    CV
-                </a>
                 <a href="#contact">Contact</a>
             </nav>
             <button id="theme-toggle" class="theme-toggle" type="button"
@@ -66,11 +61,12 @@
                     title="Toggle light and dark mode">
                 <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                      stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M20.9 13a9 9 0 0 1-9.9-9.9A9 9 0 1 0 20.9 13Z"/>
+                    <path d="M20.9 13a9 9 0 0 1-9.9-9.9A9 9 0 1 0 20.9 13Z" />
                 </svg>
                 <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                      stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/>
+                    <circle cx="12" cy="12" r="4" />
+                    <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" />
                 </svg>
                 <span id="theme-label">Dark</span>
             </button>
@@ -110,13 +106,6 @@
                     <a class="button primary"
                        href="#projects">
                         View my projects <span class="button-arrow">→</span>
-                    </a>
-
-                    <a class="button"
-                       href="Craig-Griffiths-CV.pdf"
-                       target="_blank"
-                       rel="noopener">
-                        View CV
                     </a>
 
                     <a class="button"
@@ -395,81 +384,81 @@
 
 
         <!-- EXPERIENCE
-    <section id="experience" class="section alt">
+        <section id="experience" class="section alt">
 
-        <div class="container">
+            <div class="container">
 
-            <p class="section-label"></p>
+                <p class="section-label"></p>
 
-            <h2>Career</h2>
+                <h2>Career</h2>
 
-            <div class="timeline">
+                <div class="timeline">
 
-                <article>
+                    <article>
 
-                    <h3>
-                        Software Engineer
-                        <span>· Club Systems International Ltd</span>
-                    </h3>
+                        <h3>
+                            Software Engineer
+                            <span>· Club Systems International Ltd</span>
+                        </h3>
 
-                    <p class="muted">
-                        October 2022 – May 2024
-                    </p>
+                        <p class="muted">
+                            October 2022 – May 2024
+                        </p>
 
-                    <p>
-                        Worked on ClubV1 and HowDidiDo, developing and
-                        maintaining large-scale golf administration and
-                        handicap systems using modern .NET technologies
-                        and Azure DevOps.
-                    </p>
+                        <p>
+                            Worked on ClubV1 and HowDidiDo, developing and
+                            maintaining large-scale golf administration and
+                            handicap systems using modern .NET technologies
+                            and Azure DevOps.
+                        </p>
 
-                </article>
-
-
-                <article>
-
-                    <h3>
-                        Software Engineer
-                        <span>· Martindale's Limited</span>
-                    </h3>
-
-                    <p class="muted">
-                        August 2011 – November 2019
-                    </p>
-
-                    <p>
-                        Built software for manufacturing and field operations,
-                        including C# and Xamarin mobile applications and
-                        integrations with 4D database systems.
-                    </p>
-
-                </article>
+                    </article>
 
 
-                <article>
+                    <article>
 
-                    <h3>
-                        Software Engineer
-                        <span>· Tailored Limited</span>
-                    </h3>
+                        <h3>
+                            Software Engineer
+                            <span>· Martindale's Limited</span>
+                        </h3>
 
-                    <p class="muted">
-                        April 2005 – August 2011
-                    </p>
+                        <p class="muted">
+                            August 2011 – November 2019
+                        </p>
 
-                    <p>
-                        Developed eCommerce systems, web applications and
-                        native Windows Mobile software using C++, MFC,
-                        JavaScript and database-backed services.
-                    </p>
+                        <p>
+                            Built software for manufacturing and field operations,
+                            including C# and Xamarin mobile applications and
+                            integrations with 4D database systems.
+                        </p>
 
-                </article>
+                    </article>
+
+
+                    <article>
+
+                        <h3>
+                            Software Engineer
+                            <span>· Tailored Limited</span>
+                        </h3>
+
+                        <p class="muted">
+                            April 2005 – August 2011
+                        </p>
+
+                        <p>
+                            Developed eCommerce systems, web applications and
+                            native Windows Mobile software using C++, MFC,
+                            JavaScript and database-backed services.
+                        </p>
+
+                    </article>
+
+                </div>
 
             </div>
 
-        </div>
-
-    </section>-->
+        </section>-->
         <!-- CONTACT -->
         <section id="contact" class="section contact-section">
 
@@ -518,7 +507,7 @@
             </span>
 
             <span>
-               
+
             </span>
 
         </div>
@@ -527,8 +516,8 @@
 
 
     <script>
-        document.getElementById('year').textContent =
-            new Date().getFullYear();
+                document.getElementById('year').textContent =
+                    new Date().getFullYear();
     </script>
 
     <script src="theme.js"></script>
