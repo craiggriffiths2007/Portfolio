@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\craig\\Downloads\\index-no-cv (1).html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Source\\craiggriffiths2007\\portfolio\\Images\\casino.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Images\\casino.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
@@ -46,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +61,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "index-no-cv (1).html",
+              "DocumentMoniker": "C:\\Users\\craig\\Downloads\\index-no-cv (1).html",
+              "ToolTip": "C:\\Users\\craig\\Downloads\\index-no-cv (1).html",
+              "ViewState": "AgIAAMwBAAAAAAAAAAAwwA8CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-03T09:57:04.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "glassops.png",
               "DocumentMoniker": "D:\\Source\\craiggriffiths2007\\portfolio\\Images\\glassops.png",
               "RelativeDocumentMoniker": "Images\\glassops.png",
@@ -69,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "casino.png",
               "DocumentMoniker": "D:\\Source\\craiggriffiths2007\\portfolio\\Images\\casino.png",
               "RelativeDocumentMoniker": "Images\\casino.png",
@@ -80,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "hero3d.js",
               "DocumentMoniker": "D:\\Source\\craiggriffiths2007\\portfolio\\hero3d.js",
               "RelativeDocumentMoniker": "hero3d.js",
@@ -92,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "site.webmanifest",
               "DocumentMoniker": "D:\\Source\\craiggriffiths2007\\portfolio\\site.webmanifest",
               "RelativeDocumentMoniker": "site.webmanifest",
@@ -104,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "favicon.ico - Icon [16x16, 32 bit, PNG]",
               "DocumentMoniker": "D:\\Source\\craiggriffiths2007\\portfolio\\favicon.ico",
               "RelativeDocumentMoniker": "favicon.ico",
@@ -116,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "android-chrome-192x192.png",
               "DocumentMoniker": "D:\\Source\\craiggriffiths2007\\portfolio\\Images\\android-chrome-192x192.png",
               "RelativeDocumentMoniker": "Images\\android-chrome-192x192.png",
@@ -127,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "style.css",
               "DocumentMoniker": "D:\\Source\\craiggriffiths2007\\portfolio\\style.css",
               "RelativeDocumentMoniker": "style.css",
@@ -139,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GlassOpsPrivicy.html",
               "DocumentMoniker": "D:\\Source\\craiggriffiths2007\\portfolio\\GlassOpsPrivicy.html",
               "RelativeDocumentMoniker": "GlassOpsPrivicy.html",
@@ -157,7 +171,7 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "D:\\Source\\craiggriffiths2007\\portfolio\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAIkBAAAAAAAAAAAAANcBAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-08-19T14:10:30.73Z",
               "EditorCaption": ""
