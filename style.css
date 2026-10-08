@@ -203,9 +203,12 @@ nav a:hover {
     letter-spacing: 0.13em;
     text-transform: uppercase;
 }
+.hero-content-panel > * {
+    max-width: 650px;
+}
 
 .hero h1 {
-    max-width: 660px;
+    max-width: 760px;
     margin: 0 0 24px;
     color: #123f70;
     font-size: clamp(2.8rem, 5.7vw, 4.65rem);
@@ -590,6 +593,11 @@ footer {
     --border: #30465e;
     --shadow: 0 12px 35px rgba(0, 0, 0, 0.28);
 }
+
+.no-wrap {
+    white-space: nowrap;
+}
+
 .site-header { transition: background .2s ease, border-color .2s ease; }
 .nav-wrap { gap: 22px; }
 .nav-wrap nav { margin-left: auto; }
@@ -683,4 +691,14 @@ footer {
 }
 @media (prefers-reduced-motion: reduce) {
     .theme-toggle, .site-header { transition: none; }
+}
+
+/* Space below project cards */
+.projects-section {
+    padding-bottom: 60px;
+}
+
+/* Space below "I also build games." */
+.hero-content h2 {
+    margin-bottom: 35px;
 }
