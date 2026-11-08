@@ -1,527 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Craig Griffiths | .NET Software Developer</title>
-
-    <meta name="description"
-          content="Craig Griffiths - .NET Software Developer with over 20 years of experience in C#, ASP.NET Core, .NET MAUI, WPF, SQL Server and software development." />
-
-    <link rel="canonical" href="https://craiggriffiths.co.uk/" />
-
-    <meta property="og:title"
-          content="Craig Griffiths | .NET Software Developer" />
-    <meta property="og:description"
-          content=".NET Software Developer specialising in C#, ASP.NET Core, .NET MAUI, WPF and SQL Server." />
-    <meta property="og:url"
-          content="https://craiggriffiths.co.uk/" />
-    <meta property="og:type"
-          content="website" />
-
-    <link rel="icon" type="image/png"
-          sizes="32x32" href="Images/favicon-32x32.png" />
-    <link rel="icon" type="image/png"
-          sizes="16x16" href="Images/favicon-16x16.png" />
-    <link rel="apple-touch-icon"
-          sizes="180x180" href="Images/apple-touch-icon.png" />
-
-    <script>
-                // Set the theme before the stylesheet renders to avoid flashing.
-                try {
-                    const saved = localStorage.getItem('portfolio-theme');
-                    document.documentElement.dataset.theme =
-                        saved === 'light' || saved === 'dark' ? saved :
-                        'dark';
-                } catch (_) {
-                    document.documentElement.dataset.theme = 'dark';
-                }
-    </script>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101e2b">
+  <title>Craig Griffiths | Senior .NET Software Engineer</title>
+  <meta name="description" content="Craig Griffiths is a Manchester-based software engineer with over 20 years of experience delivering C#, .NET, web, mobile and integrated business applications.">
+  <link rel="canonical" href="https://craiggriffiths.co.uk/">
+  <meta property="og:title" content="Craig Griffiths | Software Engineer">
+  <meta property="og:description" content="Thoughtful engineering. Practical software. Two decades of experience building connected systems.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://craiggriffiths.co.uk/">
+  <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Craig Griffiths, home"><span class="brand-mark">CG<span>.</span></span><span class="brand-name">CRAIG GRIFFITHS<small>SOFTWARE ENGINEER</small></span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#expertise">Expertise</a><a href="#projects">Selected work</a><a href="#experience">Experience</a>
+      </nav>
+      <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
 
-    <header class="site-header">
-        <div class="container nav-wrap">
-
-            <a class="brand" href="#top">
-                Craig Griffiths
-            </a>
-            <nav aria-label="Main navigation">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-
-                <a href="#contact">Contact</a>
-            </nav>
-            <button id="theme-toggle" class="theme-toggle" type="button"
-                    aria-label="Switch to dark mode" aria-pressed="false"
-                    title="Toggle light and dark mode">
-                <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                     stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M20.9 13a9 9 0 0 1-9.9-9.9A9 9 0 1 0 20.9 13Z" />
-                </svg>
-                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                     stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <circle cx="12" cy="12" r="4" />
-                    <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" />
-                </svg>
-                <span id="theme-label">Dark</span>
-            </button>
-
+  <main id="main">
+    <section id="top" class="hero" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> INDEPENDENT SOFTWARE ENGINEER · MANCHESTER, UK</p>
+          <h1 id="hero-title">Software built<br>with <em>purpose.</em></h1>
+          <p class="hero-lede">I design and develop dependable software that brings people, processes and technology together.</p>
+          <p class="hero-support">Over 20 years of hands-on experience across C#, .NET, business systems, web applications and mobile platforms.</p>
+          <div class="hero-actions"><a class="btn btn-gold" href="#projects">Explore selected work <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">Discover my approach <span aria-hidden="true">↓</span></a></div>
         </div>
-    </header>
-
-
-    <main id="top">
-
-        <!-- HERO -->
-        <section class="hero">
-
-            <div id="hero-3d"></div>
-
-            <div class="hero-glow hero-glow-one"></div>
-            <div class="hero-glow hero-glow-two"></div>
-
-            <div class="container hero-content hero-content-panel">
-
-                <p class="eyebrow">
-                    C# · .NET · Web · Desktop · Mobile
-                </p>
-
-
-                <h1>
-                    Building practical software
-                    that solves <span class="no-wrap">real-world</span> problems.
-                </h1>
-
-                <p class="lead">
-                    Specialising in C#, .NET, ASP.NET Core,
-                    WPF, .NET MAUI and SQL Server.
-                </p>
-
-                <!--<h2>
-        I also build games.
-    </h2>-->
-
-                <div class="actions">
-
-                    <a class="button primary"
-                       href="#projects">
-                        View my projects <span class="button-arrow">→</span>
-                    </a>
-
-                    <a class="button"
-                       href="https://github.com/craiggriffiths2007"
-                       target="_blank"
-                       rel="noreferrer">
-                        GitHub
-                    </a>
-
-                    <a class="button"
-                       href="https://www.linkedin.com/in/craig-griffiths-manchester/"
-                       target="_blank"
-                       rel="noreferrer">
-                        LinkedIn
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ABOUT -->
-        <section id="about" class="section">
-
-            <div class="container">
-
-                <p class="section-label"></p>
-
-                <h2>About me</h2>
-
-                <p class="section-intro">
-                    I’m a Manchester-based software developer with connections across the North West of England and over 20 years of commercial software development experience.
-                </p>
-
-                <p>
-                    I started with C and C++, later moving into C# and the
-                    .NET ecosystem. My recent work focuses on modern applications
-                    spanning ASP.NET Core web systems, REST APIs, WPF desktop
-                    applications and cross-platform .NET MAUI mobile apps.
-                </p>
-
-                <p>
-                    I particularly enjoy building complete systems where the web,
-                    mobile, database and API components all work together.
-                </p>
-
-            </div>
-
-        </section>
-
-
-        <!-- SKILLS -->
-        <section id="skills" class="section alt">
-
-            <div class="container">
-
-                <p class="section-label"></p>
-
-                <h2>Core skills</h2>
-
-                <div class="cards skills-grid">
-
-                    <article class="card">
-                        <div class="skill-icon">&lt;/&gt;</div>
-
-                        <p>
-                            C#, C++, C, JavaScript,
-                            HTML and CSS
-                        </p>
-                    </article>
-
-                    <article class="card">
-                        <div class="skill-icon">.NET</div>
-
-                        <p>
-                            .NET 10, ASP.NET Core MVC,
-                            REST APIs, Razor, WPF,
-                            .NET MAUI and XAML
-                        </p>
-                    </article>
-
-                    <article class="card">
-                        <div class="skill-icon">DB</div>
-
-                        <p>
-                            SQL Server, Entity Framework Core,
-                            LINQ and SQLite
-                        </p>
-                    </article>
-
-                    <article class="card">
-                        <div class="skill-icon">IDE</div>
-
-                        <p>
-                            Visual Studio, Git, GitHub,
-                            Azure DevOps and CI/CD
-                        </p>
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- PROJECTS -->
-        <section id="projects" class="section projects-section">
-
-            <div class="container">
-
-                <p class="section-label"></p>
-
-                <h2>Projects</h2>
-
-                <p class="section-intro">
-                    A selection of non-commercial projects I’ve designed and developed for personal interest,
-                    including complete web, mobile and database systems and interactive entertainment web applications.
-                </p>
-
-
-                <div class="cards project-grid">
-
-
-                    <!-- GLASS OPS -->
-                    <article class="card project-card featured-project">
-
-                        <div class="project-image">
-                            <a href="https://glassops.co.uk/"
-                               target="_blank"
-                               rel="noopener"
-                               class="project-image-link">
-
-                                <div class="project-image">
-                                    <img src="Images/glassops.png"
-                                         alt="Visit Glass Ops" />
-                                </div>
-
-                            </a>
-                        </div>
-
-                        <div class="project-top">
-
-                            <span class="tag">
-                                .NET MAUI · ASP.NET Core · SQL Server
-                            </span>
-
-                            <span class="live-badge">
-                                ● Live
-                            </span>
-
-                        </div>
-
-
-                        <h3>Glass Ops</h3>
-
-                        <p>
-                            A cross-platform field operations system for the
-                            glazing repair industry, connecting head-office
-                            teams with surveyors, fitters and field staff.
-                        </p>
-
-                        <p>
-                            The platform includes diary scheduling, surveying,
-                            fitting, photographs, drawings, signatures,
-                            health &amp; safety checks, customer records,
-                            multi-tenancy and secure mobile synchronisation.
-                        </p>
-
-                        <div class="project-tech">
-                            <span>C#</span>
-                            <span>.NET MAUI</span>
-                            <span>ASP.NET Core</span>
-                            <span>EF Core</span>
-                            <span>SQL Server</span>
-                            <span>SQLite</span>
-                        </div>
-
-                        <div class="project-actions">
-
-                            <a class="button primary"
-                               href="https://glassops.co.uk/"
-                               target="_blank"
-                               rel="noopener">
-                                Visit Glass Ops ↗
-                            </a>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- CRAIG'S CASINO -->
-    <article class="card project-card featured-project">
-
-        <div class="project-image">
-            <a href="https://craigscasino.runasp.net/home/casino"
-               target="_blank"
-               rel="noopener"
-               class="project-image-link">
-
-                <div class="project-image">
-                    <img src="Images/casino.png"
-                         alt="Visit Craig's Casino" />
-                </div>
-
-            </a>
+        <div class="hero-aside" aria-hidden="true"><span class="vertical-line"></span><span>ENGINEERING WITH INTENTION — SINCE 2005</span></div>
+      </div>
+      <div class="container hero-bottom"><span>01 / INTRODUCTION</span><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container two-column">
+        <div class="section-heading"><span class="kicker">01 / ABOUT</span><h2>Experience, curiosity<br>and <em>craft.</em></h2></div>
+        <div class="prose">
+          <p class="intro-statement">Good software is more than clean code. It's an understanding of the people who depend on it.</p>
+          <p>I'm a Manchester-based software engineer with over two decades of commercial development experience. I began with C and C++, before specialising in C# and the wider .NET ecosystem.</p>
+          <p>My work spans desktop software, modern web platforms, REST APIs, databases and cross-platform mobile applications. I particularly enjoy the challenge of making different systems work together, from established business software to new, connected experiences.</p>
+          <a class="inline-arrow" href="#experience">More about my experience <span aria-hidden="true">↗</span></a>
         </div>
+      </div>
+    </section>
 
-        <div class="project-top">
+    <section class="statement-band" aria-label="Engineering philosophy"><div class="container"><span class="statement-symbol">“</span><p>Complex problems deserve <em>considered, practical</em> solutions.</p></div></section>
 
-            <span class="tag">
-                ASP.NET · JavaScript · UNITY · Casino Game Development
-            </span>
-
-            <span class="live-badge">
-                ● Live
-            </span>
-
+    <section id="expertise" class="section expertise-section">
+      <div class="container">
+        <div class="section-intro"><div><span class="kicker">02 / EXPERTISE</span><h2>The tools behind<br>the <em>thinking.</em></h2></div><p>Broad technical experience, with a particular focus on end-to-end application development and long-term maintainability.</p></div>
+        <div class="expertise-grid">
+          <article class="expertise-item"><span class="expertise-number">01</span><div><h3>Application development</h3><p>C#, C++, .NET, ASP.NET Core MVC, Razor, WPF and XAML.</p></div><span aria-hidden="true" class="expertise-plus">↗</span></article>
+          <article class="expertise-item"><span class="expertise-number">02</span><div><h3>Mobile &amp; connected systems</h3><p>.NET MAUI, Android, REST APIs and synchronisation between mobile and business platforms.</p></div><span aria-hidden="true" class="expertise-plus">↗</span></article>
+          <article class="expertise-item"><span class="expertise-number">03</span><div><h3>Data &amp; integration</h3><p>SQL Server, Entity Framework Core, SQLite, LINQ and integration with 4D systems.</p></div><span aria-hidden="true" class="expertise-plus">↗</span></article>
+          <article class="expertise-item"><span class="expertise-number">04</span><div><h3>Delivery &amp; tooling</h3><p>Visual Studio, Git, GitHub, Azure DevOps and CI/CD workflows.</p></div><span aria-hidden="true" class="expertise-plus">↗</span></article>
         </div>
+      </div>
+    </section>
 
-        <h3>Craig's Casino</h3>
+    <section id="projects" class="section work-section">
+      <div class="container">
+        <div class="section-intro work-intro"><div><span class="kicker">03 / SELECTED WORK</span><h2>Built from idea<br>to <em>reality.</em></h2></div><p>Independent projects that explore real-world operational challenges and interactive software experiences.</p></div>
+        <article class="work-card">
+          <a class="work-image" href="https://glassops.co.uk/" target="_blank" rel="noopener noreferrer" aria-label="Explore Glass Ops"><img src="Images/glassops.png" alt="Glass Ops field service management platform preview" loading="lazy"></a>
+          <div class="work-copy"><div class="work-meta"><span>FEATURED PROJECT / 01</span><span class="status-dot">LIVE PROJECT</span></div><h3>Glass Ops</h3><p class="work-subtitle">Field service management, connected end to end.</p><p>A complete field operations platform connecting office teams, surveyors and fitters through scheduling, job management, surveys, photographs, signatures and mobile synchronisation.</p><div class="work-tags"><span>C# / .NET</span><span>ASP.NET Core</span><span>.NET MAUI</span><span>SQL Server</span></div><a class="inline-arrow" href="https://glassops.co.uk/" target="_blank" rel="noopener noreferrer">Explore the platform <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="work-card">
+          <a class="work-image" href="https://craigscasino.runasp.net/home/casino" target="_blank" rel="noopener noreferrer" aria-label="Explore Craig's Casino"><img src="Images/casino.png" alt="Craig's Casino interactive games project preview" loading="lazy"></a>
+          <div class="work-copy"><div class="work-meta"><span>INDEPENDENT PROJECT / 02</span><span class="status-dot">LIVE PROJECT</span></div><h3>Craig's Casino</h3><p class="work-subtitle">Exploring the playful side of software.</p><p>A browser-based collection of interactive casino-style games and concepts, developed to experiment with animation, user interfaces, graphics and server-side functionality.</p><div class="work-tags"><span>ASP.NET</span><span>C#</span><span>JavaScript</span><span>Unity</span></div><a class="inline-arrow" href="https://craigscasino.runasp.net/home/casino" target="_blank" rel="noopener noreferrer">Explore the project <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+    </section>
 
-        <p>
-            A browser-based casino project exploring interactive
-            game development, animation, responsive interfaces
-            and server-side account functionality.
-        </p>
-
-        <p>
-            The project includes custom casino games and slot
-            concepts while providing a playground for experimenting
-            with animation, graphics and modern web technologies.
-        </p>
-
-        <div class="project-tech">
-            <span>ASP.NET</span>
-            <span>C#</span>
-            <span>UNITY</span>
-            <span>JavaScript</span>
-            <span>HTML</span>
-            <span>CSS</span>
-
+    <section id="experience" class="section experience-section">
+      <div class="container two-column">
+        <div class="section-heading"><span class="kicker">04 / EXPERIENCE</span><h2>Two decades<br>of <em>building.</em></h2><p class="experience-note">A career shaped by practical problems, varied industries and the evolution of software engineering.</p></div>
+        <div class="career-list">
+          <article><span class="career-date">2022 — 2024</span><div><h3>Software Engineer</h3><p class="career-company">Club Systems International</p><p>Worked on golf administration and handicap platforms, including ClubV1 and HowDidiDo, using .NET technologies and Azure DevOps.</p></div></article>
+          <article><span class="career-date">2011 — 2019</span><div><h3>Software Engineer</h3><p class="career-company">Martindales</p><p>Built field surveying and operational systems, with C# mobile applications and integrations into established 4D business systems.</p></div></article>
+          <article><span class="career-date">2005 — 2011</span><div><h3>Software Engineer</h3><p class="career-company">Tailored Limited</p><p>Developed e-commerce solutions, web applications and Windows Mobile software using C++, MFC and database-backed services.</p></div></article>
         </div>
+      </div>
+    </section>
 
-        <div class="project-actions">
-
-            <a class="button primary"
-               href="https://craigscasino.runasp.net/home/casino"
-               target="_blank"
-               rel="noopener">
-                Visit Craig's Casino ↗
-            </a>
-
-
-        </div>
-
-    </article>
-        
-
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- EXPERIENCE
-        <section id="experience" class="section alt">
-
-            <div class="container">
-
-                <p class="section-label"></p>
-
-                <h2>Career</h2>
-
-                <div class="timeline">
-
-                    <article>
-
-                        <h3>
-                            Software Engineer
-                            <span>· Club Systems International Ltd</span>
-                        </h3>
-
-                        <p class="muted">
-                            October 2022 – May 2024
-                        </p>
-
-                        <p>
-                            Worked on ClubV1 and HowDidiDo, developing and
-                            maintaining large-scale golf administration and
-                            handicap systems using modern .NET technologies
-                            and Azure DevOps.
-                        </p>
-
-                    </article>
-
-
-                    <article>
-
-                        <h3>
-                            Software Engineer
-                            <span>· Martindale's Limited</span>
-                        </h3>
-
-                        <p class="muted">
-                            August 2011 – November 2019
-                        </p>
-
-                        <p>
-                            Built software for manufacturing and field operations,
-                            including C# and Xamarin mobile applications and
-                            integrations with 4D database systems.
-                        </p>
-
-                    </article>
-
-
-                    <article>
-
-                        <h3>
-                            Software Engineer
-                            <span>· Tailored Limited</span>
-                        </h3>
-
-                        <p class="muted">
-                            April 2005 – August 2011
-                        </p>
-
-                        <p>
-                            Developed eCommerce systems, web applications and
-                            native Windows Mobile software using C++, MFC,
-                            JavaScript and database-backed services.
-                        </p>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>-->
-        <!-- CONTACT -->
-        <section id="contact" class="section contact-section">
-
-            <div class="container narrow">
-                <br />
-                <p class="section-label">Contact</p>
-
-                <h2>Get in touch</h2>
-
-                <p>
-                    If you’d like to discuss a software development opportunity
-                    or one of my projects, you can find me on GitHub or LinkedIn.
-                </p>
-
-                <div class="actions center">
-
-                    <a class="button primary"
-                       href="https://github.com/craiggriffiths2007"
-                       target="_blank"
-                       rel="noreferrer">
-                        GitHub profile
-                    </a>
-
-                    <a class="button"
-                       href="https://www.linkedin.com/in/craig-griffiths-4142313aa/"
-                       target="_blank"
-                       rel="noreferrer">
-                        LinkedIn profile
-                    </a>
-
-                </div>
-                <br />
-            </div>
-
-        </section>
-        <br /><br /><br />
-    </main>
-
-
-    <footer>
-
-        <div class="container footer-content">
-
-            <span>
-                © <span id="year"></span> Craig Griffiths
-            </span>
-
-            <span>
-
-            </span>
-
-        </div>
-
-    </footer>
-
-
-    <script>
-                document.getElementById('year').textContent =
-                    new Date().getFullYear();
-    </script>
-
-    <script src="theme.js"></script>
-    <script src="lib/three.min.js"></script>
-    <script src="hero3d.js"></script>
-
+    <section id="contact" class="contact-section"><div class="container contact-inner"><span class="kicker">05 / CONNECT</span><h2>Let's make something<br><em>worth building.</em></h2><p>Interested in discussing a role, a technical challenge or one of my projects? I'd be pleased to connect.</p><div class="contact-actions"><a class="btn btn-gold" href="https://www.linkedin.com/in/craig-griffiths-manchester/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/craiggriffiths2007" target="_blank" rel="noopener noreferrer">View my GitHub <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span class="footer-brand">CG<span>.</span></span><span>© <span id="year"></span> Craig Griffiths. Designed with purpose.</span><a href="#top">Back to top ↑</a></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
